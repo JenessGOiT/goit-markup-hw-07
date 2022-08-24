@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="header--container container">
+        <a href="./index.html" lang="en" class="header__logo noline"
+          >Web<span class="header__studio">Studio</span></a
+        >
+        <nav class="navsite navsite--margin">
+          <ul class="navsite__list list">
+            <li class="navsite__item">
+              <a href="./index.html" class="navsite__link noline">Студия</a>
+            </li>
+            <li class="navsite__item">
+              <a href="./portfolio.html" class="navsite__link noline current"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navsite__item">
+              <a href="" class="navsite__link noline">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contacts__link noline"
+              ><svg class="contacts__icon" width="16" height="12">
+                <use href="./img/icon.svg#icon-envelope"></use></svg
+              >info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="contacts__link noline"
+              ><svg class="contacts__icon" width="16" height="12">
+                <use href="./img/icon.svg#icon-smartphone"></use></svg
+              >+38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="portfolio-nav">
+          <!-- h1 Навигация потом скрыть -->
+
+          <h1 class="portfolion-nav__title hidden">Навигация</h1>
+          <ul class="portfolio-nav__list list">
+            <li>
+              <button type="button" class="portfolio-nav__btn">Все</button>
+            </li>
+            <li>
+              <button type="button" class="portfolio-nav__btn">
+                Веб-сайты
+              </button>
+            </li>
+            <li>
+              <button type="button" class="portfolio-nav__btn">
+                Приложения
+              </button>
+            </li>
+            <li>
+              <button type="button" class="portfolio-nav__btn">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="portfolio-nav__btn">
+                Маркетинг
+              </button>
+            </li>
+          </ul>
+
+          <!-- h2 Наши работы потом скрыть-->
+
+          <h2 class="team-work__title hidden">Наши работы</h2>
+          <ul class="team-work__list list">
+            <li class="team-work__item">
+              <a href="" class="team-work__link noline">
+                <div class="team-work__divdes">
+                  <img
+                    src="./img/img_portfolio_1.jpg"
+                    alt="Примеры работ"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="team-work__description">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="team-card">
+                  <h3 class="team-card__titel">Технокряк</h3>
+                  <p class="team-card__text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="team-work__item">
+              <a href="" class="team-work__link noline">
+                <div class="team-work__divdes">
+                  <img
+                    src="./img/img_portfolio_2.jpg"
+                    alt="Примеры работ"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="team-work__description">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="team-card">
+                  <h3 class="team-card__titel">
+                    Постер New Orlean vs Golden Star
+                  </h3>
+                  <p class="team-card__text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="team-work__item">
+              <a href="" class="team-work__link noline">
+                <div class="team-work__divdes">
+                  <img
+                    src="./img/img_portfolio_3.jpg"
+                    alt="Примеры работ"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="team-work__description">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="team-card">
+                  <h3 class="team-card__titel">Ресторан Seafood</h3>
+                  <p class="team-card__text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="team-work__item">
+              <a href="" class="team-work__link noline">
+                <div class="team-work__divdes">
+                  <img
+                    src="./img/img_portfolio_4.jpg"
+                    alt="Примеры работ"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="team-work__description">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="team-card">
+                  <h3 class="team-card__titel">Проект Prime</h3>
+                  <p class="team-card__text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="team-work__item">
+              <a href="" class="team-work__link noline">
+                <div class="team-work__divdes">
+                  <img
+                    src="./img/img_portfolio_5.jpg"
+                    alt="Примеры работ"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="team-work__description">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="team-card">
+                  <h3 class="team-card__titel">Проект Boxes</h3>
+                  <p class="team-card__text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="team-work__item">
+              <a href="" class="team-work__link noline">
+                <div class="team-work__divdes">
+                  <img
+                    src="./img/img_portfolio_6.jpg"
+                    alt="Примеры работ"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="team-work__description">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="team-card">
+                  <h3 class="team-card__titel">Inspiration has no Borders</h3>
+                  <p class="team-card__text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="team-work__item">
+              <a href="" class="team-work__link noline">
+                <div class="team-work__divdes">
+                  <img
+                    src="./img/img_portfolio_7.jpg"
+                    alt="Примеры работ"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="team-work__description">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="team-card">
+                  <h3 class="team-card__titel">Издание Limited Edition</h3>
+                  <p class="team-card__text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="team-work__item">
+              <a href="" class="team-work__link noline">
+                <div class="team-work__divdes">
+                  <img
+                    src="./img/img_portfolio_8.jpg"
+                    alt="Примеры работ"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="team-work__description">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="team-card">
+                  <h3 class="team-card__titel">Проект LAB</h3>
+                  <p class="team-card__text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="team-work__item">
+              <a href="" class="team-work__link noline">
+                <div class="team-work__divdes">
+                  <img
+                    src="./img/img_portfolio_9.jpg"
+                    alt="Примеры работ"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="team-work__description">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="team-card">
+                  <h3 class="team-card__titel">Growing Business</h3>
+                  <p class="team-card__text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__contacts">
+          <a href="./index.html" lang="en" class="footer__logo noline"
+            >Web<span class="footer__studio">Studio</span></a
+          >
+          <address class="address">
+            <ul class="address__list list">
+              <li>
+                <a
+                  href="https://goo.gl/maps/Qobd9PiEAxH4mzuB8"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  class="address__link noline"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@example.com" class="address__mail noline"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+380991111111" class="address__tel noline"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-soc--margin">
+          <p class="footer-soc__title">присоединяйтесь</p>
+          <ul class="footer-soc__list list">
+            <li class="footer-soc__item">
+              <a href="" class="footer-soc__link">
+                <svg class="footer-soc__icon" width="20" height="20">
+                  <use href="./img/icon.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc__item">
+              <a href="" class="footer-soc__link">
+                <svg class="footer-soc__icon" width="20" height="20">
+                  <use href="./img/icon.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc__item">
+              <a href="" class="footer-soc__link">
+                <svg class="footer-soc__icon" width="20" height="20">
+                  <use href="./img/icon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-soc__item">
+              <a href="" class="footer-soc__link">
+                <svg class="footer-soc__icon" width="20" height="20">
+                  <use href="./img/icon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-form--margin">
+          <h3 class="footer-form__title">Подпишитесь на рассылку</h3>
+
+          <form class="footer-form__item">
+            <input
+              type="email"
+              name="email"
+              placeholder="E-mail"
+              class="footer-form__email"
+            />
+            <button type="submit" class="hero-button">
+              Подписаться
+              <svg class="footer-form__icon" width="24" height="24">
+                <use href="./img/icon.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
