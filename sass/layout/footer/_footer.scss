@@ -1,0 +1,73 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--foothero-back-color);
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer__studio {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.address {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    & li {
+            margin-top: 9px;
+        }
+}
+
+.address__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+    color: #fff;
+    transition: color var(--timing-function) var(--duration);
+}
+
+.address__mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--timing-function) var(--duration);
+}
+
+.address__tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--timing-function) var(--duration);
+}
+
+.address__link:hover,
+.address__mail:hover,
+.address__tel:hover {
+    color: var(--accent-color);
+}
